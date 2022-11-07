@@ -1,0 +1,3 @@
+# Simple Factory Idiom
+
+This example does not show the exact implementation of the Factory Method design pattern. This example shows a widely used approach for object creation and is called the simple factory idiom. It is the first step in understanding the Factory Method design pattern. The Problem within this approach lies in the structure of the Factory class. The Factory class in this example EnemyShipFactory.java violates the open close principle.

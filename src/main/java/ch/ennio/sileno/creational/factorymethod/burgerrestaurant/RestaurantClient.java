@@ -5,7 +5,7 @@ import ch.ennio.sileno.creational.factorymethod.burgerrestaurant.restaurant.Beef
 import ch.ennio.sileno.creational.factorymethod.burgerrestaurant.restaurant.Restaurant;
 import ch.ennio.sileno.creational.factorymethod.burgerrestaurant.restaurant.VeggieBurgerRestaurant;
 
-public class Client {
+public class RestaurantClient {
     public static void main(String[] args) {
         Restaurant beefBurgerRestaurant = new BeefBurgerRestaurant();
         Burger beefBurger = beefBurgerRestaurant.orderBurger();
