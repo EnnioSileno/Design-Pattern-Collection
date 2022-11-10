@@ -1,4 +1,4 @@
-package ch.ennio.sileno.creational.abstractfactory.ufocreation.engine;
+package ch.ennio.sileno.creational.abstractfactory.ufocreationv2.engine;
 
 public class ESUFOEngine implements ESEngine {
 

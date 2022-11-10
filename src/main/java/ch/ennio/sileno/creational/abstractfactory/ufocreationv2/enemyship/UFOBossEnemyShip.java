@@ -1,6 +1,6 @@
-package ch.ennio.sileno.creational.abstractfactory.ufocreation.enemyship;
+package ch.ennio.sileno.creational.abstractfactory.ufocreationv2.enemyship;
 
-import ch.ennio.sileno.creational.abstractfactory.ufocreation.enemyshippartsfactory.EnemyShipPartsFactory;
+import ch.ennio.sileno.creational.abstractfactory.ufocreationv2.enemyshippartsfactory.EnemyShipPartsFactory;
 
 public class UFOBossEnemyShip extends EnemyShip {
 

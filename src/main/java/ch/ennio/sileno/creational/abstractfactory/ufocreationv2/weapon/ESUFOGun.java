@@ -1,4 +1,4 @@
-package ch.ennio.sileno.creational.abstractfactory.ufocreation.weapon;
+package ch.ennio.sileno.creational.abstractfactory.ufocreationv2.weapon;
 
 public class ESUFOGun implements ESWeapon {
 

@@ -1,6 +1,6 @@
-package ch.ennio.sileno.creational.abstractfactory.ufocreation.enemyshipfactory;
+package ch.ennio.sileno.creational.abstractfactory.ufocreationv2.enemyshipfactory;
 
-import ch.ennio.sileno.creational.abstractfactory.ufocreation.enemyship.EnemyShip;
+import ch.ennio.sileno.creational.abstractfactory.ufocreationv2.enemyship.EnemyShip;
 
 public abstract class EnemyShipFactory {
     public EnemyShip orderShip() {

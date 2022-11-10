@@ -1,7 +1,7 @@
-package ch.ennio.sileno.creational.abstractfactory.ufocreation.enemyship;
+package ch.ennio.sileno.creational.abstractfactory.ufocreationv2.enemyship;
 
-import ch.ennio.sileno.creational.abstractfactory.ufocreation.engine.ESEngine;
-import ch.ennio.sileno.creational.abstractfactory.ufocreation.weapon.ESWeapon;
+import ch.ennio.sileno.creational.abstractfactory.ufocreationv2.engine.ESEngine;
+import ch.ennio.sileno.creational.abstractfactory.ufocreationv2.weapon.ESWeapon;
 
 public abstract class EnemyShip {
 
