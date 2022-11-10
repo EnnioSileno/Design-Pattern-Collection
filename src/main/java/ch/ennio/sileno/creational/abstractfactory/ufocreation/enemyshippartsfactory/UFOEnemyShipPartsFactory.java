@@ -1,4 +1,4 @@
-package ch.ennio.sileno.creational.abstractfactory.ufocreation.factory;
+package ch.ennio.sileno.creational.abstractfactory.ufocreation.enemyshippartsfactory;
 
 import ch.ennio.sileno.creational.abstractfactory.ufocreation.engine.ESEngine;
 import ch.ennio.sileno.creational.abstractfactory.ufocreation.engine.ESUFOEngine;
@@ -8,12 +8,12 @@ import ch.ennio.sileno.creational.abstractfactory.ufocreation.weapon.ESWeapon;
 public class UFOEnemyShipPartsFactory implements EnemyShipPartsFactory {
 
     @Override
-    public ESWeapon addESGun() {
+    public ESWeapon createESGun() {
         return new ESUFOGun();
     }
 
     @Override
-    public ESEngine addESEngine() {
+    public ESEngine createESEngine() {
         return new ESUFOEngine();
     }
 }

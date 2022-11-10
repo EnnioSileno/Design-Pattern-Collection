@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="-708.7857246642425" y="355.83846414744363">ch.ennio.sileno.creational.abstractfactory.ufocreation.engine.ESUFOBossEngine</node>
+    <node x="-28.439197812400295" y="-84.66498759006242">ch.ennio.sileno.creational.abstractfactory.ufocreation.factory.UFOEnemyShipPartsFactory</node>
+    <node x="-690.4919447863005" y="-35.62435685525901">ch.ennio.sileno.creational.abstractfactory.ufocreation.engine.ESUFOEngine</node>
+    <node x="480.77781143100367" y="36.37889142696088">ch.ennio.sileno.creational.abstractfactory.ufocreation.enemyship.EnemyShip</node>
+    <node x="-41.74336726741171" y="388.36725995896194">ch.ennio.sileno.creational.abstractfactory.ufocreation.factory.UFOBossEnemyShipPartsFactory</node>
+    <node x="953.7981263175766" y="338.4564574258151">ch.ennio.sileno.creational.abstractfactory.ufocreation.EnemyShipClient</node>
+    <node x="-337.22401193279694" y="178.18125469537364">ch.ennio.sileno.creational.abstractfactory.ufocreation.weapon.ESWeapon</node>
+    <node x="-365.2645459658271" y="355.83846414744363">ch.ennio.sileno.creational.abstractfactory.ufocreation.weapon.ESUFOBossGun</node>
+    <node x="867.1710661667898" y="-30.4279148557616">ch.ennio.sileno.creational.abstractfactory.ufocreation.EnemyShipBuilding</node>
+    <node x="-672.4919447863005" y="184.9622607745017">ch.ennio.sileno.creational.abstractfactory.ufocreation.engine.ESEngine</node>
+    <node x="867.1710661667898" y="209.025237331854">ch.ennio.sileno.creational.abstractfactory.ufocreation.UFOEnemyShipBuilding</node>
+    <node x="410.77781143100367" y="421.87985749708514">ch.ennio.sileno.creational.abstractfactory.ufocreation.enemyship.UFOEnemyShip</node>
+    <node x="-360.5674335395737" y="-35.62435685525901">ch.ennio.sileno.creational.abstractfactory.ufocreation.weapon.ESUFOGun</node>
+    <node x="410.77781143100367" y="-181.26757329801248">ch.ennio.sileno.creational.abstractfactory.ufocreation.enemyship.UFOBossEnemyShip</node>
+    <node x="-29.338892650173534" y="136.15372844381156">ch.ennio.sileno.creational.abstractfactory.ufocreation.factory.EnemyShipPartsFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ch.ennio.sileno.creational.abstractfactory.ufocreation.UFOEnemyShipBuilding" target="ch.ennio.sileno.creational.abstractfactory.ufocreation.enemyship.UFOBossEnemyShip" relationship="CREATE">
+      <point x="-159.25483580029822" y="-11.098535761173707" />
+      <point x="880.4162303664916" y="234.1836034688456" />
+      <point x="729.6994764397901" y="234.1836034688456" />
+      <point x="729.6994764397901" y="-107.78848167539286" />
+      <point x="132.7473194590483" y="28.47909162261962" />
+    </edge>
+    <edge source="ch.ennio.sileno.creational.abstractfactory.ufocreation.UFOEnemyShipBuilding" target="ch.ennio.sileno.creational.abstractfactory.ufocreation.factory.UFOEnemyShipPartsFactory" relationship="CREATE">
+      <point x="-145.15902428197364" y="28.26900350584208" />
+      <point x="890.0869551097492" y="268.79424083769607" />
+      <point x="890.0869551097492" y="654.8026178010468" />
+      <point x="347.71945939041507" y="654.8026178010468" />
+      <point x="347.71945939041507" y="-40.164987590062424" />
+      <point x="139.0" y="0.0" />
+    </edge>
+    <edge source="ch.ennio.sileno.creational.abstractfactory.ufocreation.engine.ESUFOEngine" target="ch.ennio.sileno.creational.abstractfactory.ufocreation.engine.ESEngine" relationship="REALIZATION">
+      <point x="-9.482384245984576E-5" y="31.50001615971145" />
+      <point x="-605.9920396101429" y="201.962" />
+      <point x="66.49994478630049" y="-2.607745016973695E-4" />
+    </edge>
+    <edge source="ch.ennio.sileno.creational.abstractfactory.ufocreation.UFOEnemyShipBuilding" target="ch.ennio.sileno.creational.abstractfactory.ufocreation.factory.UFOBossEnemyShipPartsFactory" relationship="CREATE">
+      <point x="-89.86007140239258" y="22.847537537255675" />
+      <point x="915.443374038606" y="263.37277486910966" />
+      <point x="915.443374038606" y="700.0854467559376" />
+      <point x="114.75663273258829" y="700.0854467559376" />
+      <point x="0.0" y="44.5" />
+    </edge>
+    <edge source="ch.ennio.sileno.creational.abstractfactory.ufocreation.enemyship.UFOBossEnemyShip" target="ch.ennio.sileno.creational.abstractfactory.ufocreation.enemyship.EnemyShip" relationship="GENERALIZATION">
+      <point x="177.49974918859186" y="-1.7142697586791655E-4" />
+      <point x="594.223248778466" y="-136.26774472498835" />
+      <point x="5.945437347462303" y="-82.53749807731967" />
+    </edge>
+    <edge source="ch.ennio.sileno.creational.abstractfactory.ufocreation.weapon.ESUFOGun" target="ch.ennio.sileno.creational.abstractfactory.ufocreation.weapon.ESWeapon" relationship="REALIZATION">
+      <point x="1.0369664173026649E-4" y="31.499653441279044" />
+      <point x="-279.0674335395737" y="160.68140129806187" />
+      <point x="-279.0674335395737" y="157.10548506769538" />
+      <point x="-279.0872567539269" y="157.10548506769538" />
+      <point x="-14.363244821129967" y="-5.210409208830043" />
+    </edge>
+    <edge source="ch.ennio.sileno.creational.abstractfactory.ufocreation.factory.UFOEnemyShipPartsFactory" target="ch.ennio.sileno.creational.abstractfactory.ufocreation.factory.EnemyShipPartsFactory" relationship="REALIZATION">
+      <point x="-2.8825911718399766E-4" y="44.500448323046726" />
+      <point x="110.56051392848252" y="147.80636293193714" />
+      <point x="-15.56585687862264" y="-32.847365511874415" />
+    </edge>
+    <edge source="ch.ennio.sileno.creational.abstractfactory.ufocreation.weapon.ESUFOBossGun" target="ch.ennio.sileno.creational.abstractfactory.ufocreation.weapon.ESWeapon" relationship="REALIZATION">
+      <point x="2.1612289512518146E-4" y="-31.50033802078616" />
+      <point x="-273.26432984293194" y="264.8204012980618" />
+      <point x="-273.2645459658271" y="264.8204012980618" />
+      <point x="-273.2645459658271" y="199.17853972738124" />
+      <point x="-325.61264235602107" y="199.17853972738124" />
+      <point x="-325.61264235602107" y="201.9622607745017" />
+      <point x="-36.12544293631328" y="6.781006079128048" />
+    </edge>
+    <edge source="ch.ennio.sileno.creational.abstractfactory.ufocreation.EnemyShipClient" target="ch.ennio.sileno.creational.abstractfactory.ufocreation.UFOEnemyShipBuilding" relationship="CREATE">
+      <point x="-11.127060150786747" y="-31.5" />
+      <point x="0.0" y="31.5" />
+    </edge>
+    <edge source="ch.ennio.sileno.creational.abstractfactory.ufocreation.factory.UFOBossEnemyShipPartsFactory" target="ch.ennio.sileno.creational.abstractfactory.ufocreation.factory.EnemyShipPartsFactory" relationship="REALIZATION">
+      <point x="-1.1880410576736722E-4" y="-44.50021807414521" />
+      <point x="114.75651392848252" y="276.6658638743455" />
+      <point x="114.75663273258829" y="276.6658638743455" />
+      <point x="114.75663273258829" y="205.92447811518326" />
+      <point x="14.794352545461265" y="25.270749671371703" />
+    </edge>
+    <edge source="ch.ennio.sileno.creational.abstractfactory.ufocreation.enemyship.UFOEnemyShip" target="ch.ennio.sileno.creational.abstractfactory.ufocreation.enemyship.EnemyShip" relationship="GENERALIZATION">
+      <point x="3.7768509600277866" y="-32.23322854534996" />
+      <point x="592.0546623910315" y="371.5127611092425" />
+      <point x="592.3382848961654" y="371.5127611092425" />
+      <point x="4.060473465161749" y="136.00000183978892" />
+    </edge>
+    <edge source="ch.ennio.sileno.creational.abstractfactory.ufocreation.factory.UFOEnemyShipPartsFactory" target="ch.ennio.sileno.creational.abstractfactory.ufocreation.weapon.ESUFOGun" relationship="CREATE">
+      <point x="-139.0" y="36.040630734803415" />
+      <point x="81.5" y="0.0" />
+    </edge>
+    <edge source="ch.ennio.sileno.creational.abstractfactory.ufocreation.UFOEnemyShipBuilding" target="ch.ennio.sileno.creational.abstractfactory.ufocreation.EnemyShipBuilding" relationship="GENERALIZATION">
+      <point x="-39.34356827879628" y="-31.5" />
+      <point x="1000.3274978879936" y="218.43943078276533" />
+      <point x="1039.6710661667898" y="218.43943078276533" />
+      <point x="0.0" y="44.5" />
+    </edge>
+    <edge source="ch.ennio.sileno.creational.abstractfactory.ufocreation.UFOEnemyShipBuilding" target="ch.ennio.sileno.creational.abstractfactory.ufocreation.enemyship.UFOEnemyShip" relationship="CREATE">
+      <point x="-163.59200857516726" y="18.177380469192826" />
+      <point x="723.1937172774865" y="258.7026178010468" />
+      <point x="134.91590584648281" y="-34.35734440808028" />
+    </edge>
+    <edge source="ch.ennio.sileno.creational.abstractfactory.ufocreation.factory.UFOBossEnemyShipPartsFactory" target="ch.ennio.sileno.creational.abstractfactory.ufocreation.engine.ESUFOBossEngine" relationship="CREATE">
+      <point x="-156.5" y="3.4712041884816927" />
+      <point x="-606.7857246642425" y="436.33846414744363" />
+      <point x="0.0" y="31.5" />
+    </edge>
+    <edge source="ch.ennio.sileno.creational.abstractfactory.ufocreation.factory.UFOEnemyShipPartsFactory" target="ch.ennio.sileno.creational.abstractfactory.ufocreation.engine.ESUFOEngine" relationship="CREATE">
+      <point x="-139.0" y="-12.959369265196585" />
+      <point x="-605.9919447863005" y="-53.12435685525901" />
+      <point x="0.0" y="-31.5" />
+    </edge>
+    <edge source="ch.ennio.sileno.creational.abstractfactory.ufocreation.factory.UFOBossEnemyShipPartsFactory" target="ch.ennio.sileno.creational.abstractfactory.ufocreation.weapon.ESUFOBossGun" relationship="CREATE">
+      <point x="-156.5" y="-37.0" />
+      <point x="92.0" y="8.528795811518307" />
+    </edge>
+    <edge source="ch.ennio.sileno.creational.abstractfactory.ufocreation.engine.ESUFOBossEngine" target="ch.ennio.sileno.creational.abstractfactory.ufocreation.engine.ESEngine" relationship="REALIZATION">
+      <point x="-2.7533575746474526E-4" y="-31.499850426677824" />
+      <point x="-606.786" y="236.462" />
+      <point x="-606.7857246642425" y="236.462" />
+      <point x="-606.7857246642425" y="212.55167811518328" />
+      <point x="2.8241988177139774" y="10.589417340681592" />
+    </edge>
+  </edges>
+  <settings layout="Compact" zoom="0.7378078223080641" showDependencies="true" x="126.85700261780084" y="176.7310209424079" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>protected</VISIBILITY>
+</Diagram>
+
