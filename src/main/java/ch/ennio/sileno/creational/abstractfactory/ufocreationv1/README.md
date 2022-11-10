@@ -1,0 +1,1 @@
+# Abstract Factory Method combined with Factory Idiom
