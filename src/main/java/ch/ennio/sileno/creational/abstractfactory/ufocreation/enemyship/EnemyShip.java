@@ -8,6 +8,7 @@ public abstract class EnemyShip {
     protected String name;
     protected ESWeapon weapon;
     protected ESEngine engine;
+
     public abstract void assembleShip();
 
     public void displayEnemyShip() {
