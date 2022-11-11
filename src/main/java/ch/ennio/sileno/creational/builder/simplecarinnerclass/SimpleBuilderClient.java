@@ -1,4 +1,4 @@
-package ch.ennio.sileno.creational.builder.simpleCar1;
+package ch.ennio.sileno.creational.builder.simplecarinnerclass;
 
 import ch.ennio.sileno.creational.builder.simplecarinnerclass.model.Car;
 import ch.ennio.sileno.creational.builder.simplecarinnerclass.model.CarBuilder;

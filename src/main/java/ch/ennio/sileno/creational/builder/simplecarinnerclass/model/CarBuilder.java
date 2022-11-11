@@ -1,4 +1,4 @@
-package ch.ennio.sileno.creational.builder.simpleCar1.model;
+package ch.ennio.sileno.creational.builder.simplecarinnerclass.model;
 
 public class CarBuilder {
     private int id;
