@@ -1,7 +1,7 @@
-package ch.ennio.sileno.creational.builder.simpleCar1;
+package ch.ennio.sileno.creational.builder.simplecar;
 
-import ch.ennio.sileno.creational.builder.simplecarinnerclass.model.Car;
-import ch.ennio.sileno.creational.builder.simplecarinnerclass.model.CarBuilder;
+import ch.ennio.sileno.creational.builder.simplecar.model.Car;
+import ch.ennio.sileno.creational.builder.simplecar.model.CarBuilder;
 
 public class SimpleBuilderClient {
     public static void main(String[] args) {
