@@ -6,7 +6,7 @@ Adapter is a structural design pattern that allows objects with incompatible int
 
 The adapter implements normally the interface of one object and wraps the other one. This approach uses the composition principle. The other approach uses multiple inheritance, which is not shown here.
 
-
+![image](https://user-images.githubusercontent.com/61289714/204546856-8305c4b9-be46-48f0-a70f-88ae2be59605.png)
 
 1. The __Client__ is a class that contains the existing business logic of the program.
 2. The __Client Interface__ describes a protocol that other classes must follow to be able to collaborate with the client code.
