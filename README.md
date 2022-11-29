@@ -11,3 +11,5 @@ __Currently added design patterns:__
   - [Abstract Factory](https://github.com/EnnioSileno/Design-Pattern-Collection/tree/main/src/main/java/ch/ennio/sileno/creational/abstractfactory)
   - [Builder Pattern](https://github.com/EnnioSileno/Design-Pattern-Collection/tree/main/src/main/java/ch/ennio/sileno/creational/builder)
   - [Prototype](https://github.com/EnnioSileno/Design-Pattern-Collection/tree/main/src/main/java/ch/ennio/sileno/creational/prototype)
+- structural
+  - [Adapter](https://github.com/EnnioSileno/Design-Pattern-Collection/tree/adapter_pattern/src/main/java/ch/ennio/sileno/structural/adapter)
