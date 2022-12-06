@@ -15,3 +15,4 @@ __Currently added design patterns:__
   - [Adapter](https://github.com/EnnioSileno/Design-Pattern-Collection/tree/main/src/main/java/ch/ennio/sileno/structural/adapter)
   - [Bridge](https://github.com/EnnioSileno/Design-Pattern-Collection/tree/main/src/main/java/ch/ennio/sileno/structural/bridge)
   - [Composite](https://github.com/EnnioSileno/Design-Pattern-Collection/tree/main/src/main/java/ch/ennio/sileno/structural/composite)
+  - [Decorator](https://github.com/EnnioSileno/Design-Pattern-Collection/tree/main/src/main/java/ch/ennio/sileno/structural/decorator)
