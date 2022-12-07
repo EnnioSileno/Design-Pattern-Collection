@@ -3,6 +3,8 @@ package ch.ennio.sileno.structural.flyweight;
 import java.util.LinkedList;
 import java.util.List;
 
+
+// Flyweight Factory
 public class TreeFactory {
 
     private static TreeFactory INSTANCE;

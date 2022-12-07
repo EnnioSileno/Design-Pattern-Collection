@@ -1,5 +1,6 @@
 package ch.ennio.sileno.structural.flyweight;
 
+// Flyweight
 public class TreeType {
     private final String name;
     private final String color;

@@ -1,5 +1,6 @@
 package ch.ennio.sileno.structural.flyweight;
 
+// Context
 public class Tree {
     private int xCoordinate, yCoordinate;
     private TreeType treeType;
